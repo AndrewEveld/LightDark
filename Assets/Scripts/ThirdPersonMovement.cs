@@ -15,6 +15,7 @@ public class ThirdPersonMovement : MonoBehaviour
     public LayerMask groundLayer;
     public float jumpForce = 7f;
     public float gravity = 20f;
+    public Transform cam;
 
 
     private void Start()
@@ -29,11 +30,11 @@ public class ThirdPersonMovement : MonoBehaviour
         if (direction.magnitude >= 0.1f)
         {
             animator.SetBool("isRunning", true);
-            float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg;
+            float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + cam.eulerAngles.y;
             float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothVelocity, turnSmoothTime);
             transform.rotation = Quaternion.Euler(0f, angle, 0f);
 
-            
+            direction = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
             //controller.Move(direction * speed * Time.deltaTime);
             
         } else
@@ -49,7 +50,7 @@ public class ThirdPersonMovement : MonoBehaviour
         //{
         //    direction.y = jumpForce;
         //}
-        controller.Move(direction * speed * Time.deltaTime);
+        controller.Move(direction.normalized * speed * Time.deltaTime);
 
 
     }
