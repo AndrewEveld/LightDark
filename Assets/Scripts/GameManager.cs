@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; set; }
-    public int sceneToLoad;
+    //public int sceneToLoad;
     private AudioSource sound;
     private void Awake()
     {
@@ -34,7 +34,7 @@ public class GameManager : MonoBehaviour
     }
     public void nextScene()
     {
-        SceneManager.LoadScene(sceneToLoad);
-        sceneToLoad++;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        //sceneToLoad++;
     }
 }
