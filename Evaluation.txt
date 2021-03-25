@@ -26,6 +26,10 @@ Character model: "Ready Player Me male avatar | VRChat/Game" (https://skfb.ly/6Z
 Lantern: "Lantern" (https://skfb.ly/VqMO) by Keegan Keene is licensed under Creative Commons Attribution-NonCommercial (http://creativecommons.org/licenses/by-nc/4.0/).
 Crate: https://opengameart.org/content/simple-crate
 Third person Movement:  https://www.youtube.com/watch?v=4HpC--2iowE&t=543s and https://www.youtube.com/watch?v=vdOFUFMiPDU
+https://freesound.org/people/SoundsAreGr8/sounds/340983/ sound footstep
+https://freesound.org/people/Trebblofang/sounds/177830/ background
+https://3dtextures.me/2018/02/14/wood-floor-007/ wood floor texture
+https://cc0textures.com/view?id=PaintedPlaster016 wall painting
 
 Andrew Eveld:
 Added character movement and character model. Added the lantern and lantern light source. Created level one.
