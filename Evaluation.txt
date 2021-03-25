@@ -33,4 +33,4 @@ Morgan Mcleod:
 
 Paxton Higgerson: Implemented camera controls and the 3rd person following mechanic, created script for item interaction.
 
-Matthew Kalahiki:
+Matthew Kalahiki:Added sound effects, walls, ceiling, floor, created a level.
