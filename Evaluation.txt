@@ -16,10 +16,10 @@ Aesthetics
 We went for a realistic looking aesthetic with a generic looking character model.
 
 Joys
-It was fun to see the 3d project come together.
+It was fun to see the 3d project come together. Especially since some of us had done 2d exclusively before this, it's an empowering feeling to see the same skills we learned help put together a 3d game.
 
 Struggles
-It was difficult to get used building 3d objects. The shorter time frame for this project also put a stress on us since this was our first 3d project.
+It was difficult to get used building 3d objects. The shorter time frame for this project also put a stress on us since this was our first 3d project. When implementing the camera controls, we had to resolve an annoying issue with out package manager and manually tweak the manifest file in order for the project to not implode.
 
 Attributions
 Character model: "Ready Player Me male avatar | VRChat/Game" (https://skfb.ly/6ZBVC) by Ready Player Me is licensed under CC Attribution-NonCommercial-ShareAlike (http://creativecommons.org/licenses/by-nc-sa/4.0/).
@@ -31,6 +31,6 @@ Andrew Eveld:
 Added character movement and character model. Added the lantern and lantern light source. Created level one.
 Morgan Mcleod:
 
-Paxton Higgerson:
+Paxton Higgerson: Implemented camera controls and the 3rd person following mechanic, created script for item interaction.
 
 Matthew Kalahiki:
