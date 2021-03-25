@@ -77,4 +77,11 @@ public class ComplexAI : MonoBehaviour
     {
         agent.SetDestination(player.position);
     }
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.CompareTag("Player"))
+        {
+            GameManager.Instance.reloadScene();
+        }
+    }
 }

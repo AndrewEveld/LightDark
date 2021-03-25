@@ -16,8 +16,10 @@ public class PickUpObject : MonoBehaviour
 
     void OnMouseUp()
     {
-        this.transform.parent = null;
-        GetComponent<Rigidbody>().useGravity = true;
+        //this.transform.parent = null;
+        // GetComponent<Rigidbody>().useGravity = true;
+        Destroy(gameObject);
+        GameManager.Instance.keyNumber++;
     }
 
 }

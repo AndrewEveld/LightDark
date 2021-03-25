@@ -6,8 +6,8 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; set; }
-    //public int sceneToLoad;
     private AudioSource sound;
+    public int keyNumber;
     private void Awake()
     {
         if (Instance == null)
@@ -23,7 +23,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         sound = GetComponent<AudioSource>();
-
+        keyNumber = 0;
     }
     void Update()
     {
@@ -36,5 +36,9 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         //sceneToLoad++;
+    }
+    public void reloadScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

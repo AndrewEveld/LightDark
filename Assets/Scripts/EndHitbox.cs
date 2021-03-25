@@ -6,8 +6,9 @@ public class EndHitbox : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        if(other.CompareTag("Player"))
+        if(other.CompareTag("Player") && GameManager.Instance.keyNumber == 2)
         {
+            GameManager.Instance.keyNumber = 0;
             GameManager.Instance.nextScene();
         }
     }
