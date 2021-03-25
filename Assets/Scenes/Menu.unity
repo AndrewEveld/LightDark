@@ -765,7 +765,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d9021faf133b7b44a9be12a71190e56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: 1
+  keyNumber: 0
 --- !u!4 &1308944120
 Transform:
   m_ObjectHideFlags: 0
@@ -933,7 +933,29 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Insert Credits Attributions here
+  m_text: 'Created by Morgan McLeod, Matthew Kalahiki, Andrew Eveld, and Paxton Higgerson
+
+
+    Attributions
+
+    Character
+    model: "Ready Player Me male avatar | VRChat/Game" (https://skfb.ly/6ZBVC) by
+    Ready Player Me is licensed under CC Attribution-NonCommercial-ShareAlike (http://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+    Lantern:
+    "Lantern" (https://skfb.ly/VqMO) by Keegan Keene is licensed under Creative Commons
+    Attribution-NonCommercial (http://creativecommons.org/licenses/by-nc/4.0/).
+
+    Crate:
+    https://opengameart.org/content/simple-crate
+
+    Third person Movement:  https://www.youtube.com/watch?v=4HpC--2iowE&t=543s
+    and https://www.youtube.com/watch?v=vdOFUFMiPDU
+
+    Music: https://freesound.org/people/Trebblofang/sounds/177830/
+
+    Footsteps
+    Sound: https://freesound.org/people/SoundsAreGr8/sounds/340983/'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: cec8b5f474b9073499bbe6e5f3e60bc2, type: 2}
   m_sharedMaterial: {fileID: 3566804871789896875, guid: cec8b5f474b9073499bbe6e5f3e60bc2, type: 2}
@@ -960,8 +982,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 26
+  m_fontSizeBase: 26
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

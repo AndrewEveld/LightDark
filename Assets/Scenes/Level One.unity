@@ -1839,7 +1839,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1479331349}
-  m_LocalRotation: {x: 0.16799933, y: 0.00000004173015, z: -0.000000007111714, w: 0.98578715}
+  m_LocalRotation: {x: 0.16799934, y: -0.000000015197417, z: 0.0000000025899671, w: 0.98578715}
   m_LocalPosition: {x: -0.04927997, y: 3.7838328, z: -4.174745}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -2686,6 +2686,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Third Person Movement
       objectReference: {fileID: 0}
+    - target: {fileID: 1508824713058521979, guid: d60768562ed214ab588b7804f7288934, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 1521443622328178648, guid: d60768562ed214ab588b7804f7288934, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -2921,23 +2925,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3906080873457260134, guid: 9ab07e359bcc749dd9ce21e397fb2258, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.1679993
+      value: 0.16799931
       objectReference: {fileID: 0}
     - target: {fileID: 3906080873457260134, guid: 9ab07e359bcc749dd9ce21e397fb2258, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.000000025739396
+      value: -0.0000000038966355
       objectReference: {fileID: 0}
     - target: {fileID: 3906080873457260134, guid: 9ab07e359bcc749dd9ce21e397fb2258, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.0000000043865462
+      value: 6.640702e-10
       objectReference: {fileID: 0}
     - target: {fileID: 3906080873647097454, guid: 9ab07e359bcc749dd9ce21e397fb2258, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.000000016933955
+      value: -0.000000016933956
       objectReference: {fileID: 0}
     - target: {fileID: 3906080873647097454, guid: 9ab07e359bcc749dd9ce21e397fb2258, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.0000000030497105
+      value: 0.0000000030497107
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9ab07e359bcc749dd9ce21e397fb2258, type: 3}
