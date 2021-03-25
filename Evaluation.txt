@@ -30,6 +30,7 @@ Third person Movement:  https://www.youtube.com/watch?v=4HpC--2iowE&t=543s and h
 Andrew Eveld:
 Added character movement and character model. Added the lantern and lantern light source. Created level one.
 Morgan Mcleod:
+Implemented monster AI. Designed main menu and end screen. Created level 3. Implemented scene transitions.
 
 Paxton Higgerson: Implemented camera controls and the 3rd person following mechanic, created script for item interaction.
 
