@@ -585,9 +585,9 @@ MonoBehaviour:
     m_Radius: 1.3
   m_LegacyHeadingBias: 3.4028235e+38
   m_Rigs:
-  - {fileID: 3906080873647097455}
-  - {fileID: 3906080873457260135}
-  - {fileID: 3906080872564554901}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!114 &3906080873102908681
 MonoBehaviour:
   m_ObjectHideFlags: 0
