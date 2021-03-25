@@ -1,0 +1,36 @@
+Andrew Eveld
+Morgan McLeod
+Paxton Higgerson
+Matthew Kalahiki
+
+Intent
+To be a scary game for users to get thrilled by.
+
+Narrative structure
+
+
+Mechanics
+You can move with the arrow keys and change the camera view with the house. You pick up items and go to an area to progress to the next level.
+
+Aesthetics
+We went for a realistic looking aesthetic with a generic looking character model.
+
+Joys
+It was fun to see the 3d project come together.
+
+Struggles
+It was difficult to get used building 3d objects. The shorter time frame for this project also put a stress on us since this was our first 3d project.
+
+Attributions
+Character model: "Ready Player Me male avatar | VRChat/Game" (https://skfb.ly/6ZBVC) by Ready Player Me is licensed under CC Attribution-NonCommercial-ShareAlike (http://creativecommons.org/licenses/by-nc-sa/4.0/).
+Lantern: "Lantern" (https://skfb.ly/VqMO) by Keegan Keene is licensed under Creative Commons Attribution-NonCommercial (http://creativecommons.org/licenses/by-nc/4.0/).
+Crate: https://opengameart.org/content/simple-crate
+Third person Movement:  https://www.youtube.com/watch?v=4HpC--2iowE&t=543s and https://www.youtube.com/watch?v=vdOFUFMiPDU
+
+Andrew Eveld:
+Added character movement and character model. Added the lantern and lantern light source. Created level one.
+Morgan Mcleod:
+
+Paxton Higgerson:
+
+Matthew Kalahiki:
